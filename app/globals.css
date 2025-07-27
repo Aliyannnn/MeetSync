@@ -62,6 +62,9 @@
 .cl-logoBox {
   height: 40px;
 }
+.cl-providerIcon__github{
+  filter: invert(1);
+}
 .cl-dividerLine {
   background: #252a41;
   height: 2px;
