@@ -1,4 +1,3 @@
-/* eslint-disable camelcase */
 'use client';
 
 import { useState } from 'react';
@@ -80,7 +79,7 @@ const MeetingTypeList = () => {
       />
       <HomeCard
         img="/icons/join-meeting.svg"
-        title="Join Meeting"
+        title="Join Meeting"  
         description="via invitation link"
         className="bg-gray-900 border border-gray-700 hover:bg-gray-800"
         handleClick={() => setMeetingState('isJoiningMeeting')}
